@@ -35,20 +35,16 @@ bio: 저의 관심사는 게임 프로그래밍, 모바일 프로그래밍, AI �
 profiles:
   - icon: at-symbol
     url: 'mailto:your-email@example.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/BuildLore
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
+    label: 네이버 이메일
+  - icon: at-symbol
+    url: 'ptrol1975@gmail.com'
+    label: 구글 이메일
   - icon: academicons/cv
     url: uploads/resume.pdf
-    label: Download my resume
-  - icon: rss
-    url: ./post/index.xml
-    label: Subscribe to my blog via RSS feed
+    label: 나의 이력서 보기
+  # - icon: rss
+  #   url: ./post/index.xml
+  #   label: Subscribe to my blog via RSS feed
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true

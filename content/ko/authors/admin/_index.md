@@ -1,16 +1,16 @@
 ---
 # Display name
-title: 吳健雄
+title: 박민호
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Park Min Ho
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: 민호
+last_name: 박
 
 # Pronouns (optional)
-pronouns: she/her
+pronouns: he/him
 
 # Status emoji
 status:
@@ -20,15 +20,15 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: 컴퓨터 공학과의 학생
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: 전북대학교
+    url: jbnu.ac.kr
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 저의 관심사는 게임 프로그래밍, 모바일 프로그래밍, AI 입니다.
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.

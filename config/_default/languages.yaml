@@ -25,7 +25,7 @@ ko:
     description: "Hugo Blox로 만드는 포토폴리오 사이트"
   menu:
     main:
-      - name: 홈
+      - name: Home
         url: '#about'
         weight: 1
   

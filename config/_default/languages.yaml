@@ -6,17 +6,26 @@
 en:
   languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
+  title: "Creator"
+  params:
+    description: "Folio site for creating photos with Hugo Blox"
+  menu:
+    main:
+      - name: Home
+        url: '#about'
+        weight: 1
 
 # Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+ko:
+  languageCode: ko-kr
+  contentDir: content/ko
+  title: "Creator"
+  params:
+    description: "Hugo Blox로 만드는 포토폴리오 사이트"
+  menu:
+    main:
+      - name: 홈
+        url: '#about'
+        weight: 1
+  

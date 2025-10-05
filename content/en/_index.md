@@ -24,4 +24,22 @@ sections:
     design:
       spacing:
         padding: ['3rem', 0, '6rem', 0]
+  - block: contact
+    content:
+      title: Location
+      text: |-
+        Jeonbuk National University, Jeonju Campus
+      coordinates:
+        latitude: '35'
+        longitude: '127'
+      address:
+        street: 567 Baekje-daero, Deokjin-gu
+        city: Jeonju-si
+        region: Jeollabuk-do
+        postcode: '54896'
+        country: South Korea
+        country_code: KR
+    design:
+      spacing:
+        padding: ['3rem', 0, '6rem', 0]
 ---

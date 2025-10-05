@@ -58,3 +58,9 @@ features:
     url: 'https://github.com/HugoBlox/hugo-blox-builder/'
     content_dir: starters/blog/content
     branch: main
+
+# 지도 설정
+map:
+  engine: mapbox
+  api_key: 'pk.eyJ1IjoiZ2N1c2hlbiIsImEiOiJjbGl5bWk3MGIwM3F5M3V0YjJzMDFzYXEzIn0.QSs-22-250s3Q12i-JODoA' #hugo blox의 예시 키로, 실제 api키 발급 필요
+  zoom: 15

@@ -24,4 +24,22 @@ sections:
     design:
       spacing:
         padding: ['3rem', 0, '6rem', 0]
+  - block: contact
+    content:
+      title: 오시는 길
+      text: |-
+        전북대학교 전주캠퍼스
+      coordinates:
+        latitude: '35'
+        longitude: '127'
+      address:
+        street: 567 백제대로, 덕진구
+        city: 전주시
+        region: 전라북도
+        postcode: '54896;
+        country: 대한민국
+        country_code: KR
+    design:
+      spacing:
+        padding: ['3rem', 0, '6rem', 0]
 ---

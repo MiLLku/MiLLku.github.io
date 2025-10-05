@@ -31,7 +31,7 @@ header:
   navbar:
     enable: true
     show_search: true
-    show_theme_chooser: true
+    show_theme_chooser: true #이부분이 다크모드/라이트모드 설정
 
 # Site footer
 footer:

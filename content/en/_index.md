@@ -15,12 +15,12 @@ sections:
         image_darken: 0.6
       text_color_light: true  
 
-  - block: gallery
-    content:
-      items:
-        - album: my-gallery 
-    design:
-      columns: '1'
+  # - block: gallery
+  #   content:
+  #     items:
+  #       - album: my-gallery 
+  #   design:
+  #     columns: '1'
 
   - block: resume-biography
     content:

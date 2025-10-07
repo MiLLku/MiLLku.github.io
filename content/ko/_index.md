@@ -27,12 +27,12 @@ sections:
         size: medium  
         shape: circle 
 
-  - block: gallery
-    content:
-      items:
-        - album: my-gallery 
-    design:
-      columns: '1'
+  # - block: gallery
+  #   content:
+  #     items:
+  #       - album: my-gallery 
+  #   design:
+  #     columns: '1'
         
   - block: collection
     content:

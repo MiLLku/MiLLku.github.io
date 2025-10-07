@@ -27,13 +27,20 @@ sections:
         size: medium  
         shape: circle 
 
+  - block: gallery
+    content:
+      items:
+        - album: my-gallery 
+    design:
+      columns: '1'
+        
   - block: collection
     content:
       title: "최신 글"
       filters:
-        folders:
-          - blog
+        folders: [blog]
         count: 3
+        offset: 0
     design:
       view: card 
 
@@ -41,10 +48,9 @@ sections:
     content:
       title: "과거 글"
       filters:
-        folders:
-          - blog
-        count: 2 
-        offset: 2
+        folders: [blog]
+        count: 6
+        offset: 3
     design:
       view: list 
 

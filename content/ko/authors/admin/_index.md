@@ -20,7 +20,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: 컴퓨터 공학과의 학생
+role: 컴퓨터 공학과 학생
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -34,11 +34,14 @@ bio: 저의 관심사는 게임 프로그래밍, 모바일 프로그래밍, AI �
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'ptrol123@naver.com'
     label: 네이버 이메일
   - icon: at-symbol
     url: 'ptrol1975@gmail.com'
     label: 구글 이메일
+  - icon: phone
+    url: 'tel:010-1234-5678'
+    label: Call Me
   - icon: academicons/cv
     url: uploads/resume.pdf
     label: 나의 이력서 보기

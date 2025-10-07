@@ -5,25 +5,36 @@ type: landing
 sections:
   - block: resume-biography
     content:
-      # The user's folder name in content/authors/
       username: admin
     design:
       spacing:
         padding: [0, 0, 0, 0]
       biography:
         style: 'text-align: justify; font-size: 0.8em;'
-      # Avatar customization
       avatar:
-        size: medium  # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+        size: medium  
+        shape: circle 
+
   - block: collection
     content:
+      title: "Latest Posts"
       filters:
         folders:
           - blog
+        count: 2
     design:
-      spacing:
-        padding: ['3rem', 0, '6rem', 0]
+      view: card 
+
+  - block: collection
+    content:
+      title: "Past Posts"
+      filters:
+        folders:
+          - blog
+        count: 2 
+        offset: 2
+    design:
+      view: compact 
   - block: contact
     content:
       title: Location

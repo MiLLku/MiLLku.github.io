@@ -35,6 +35,7 @@ sections:
         offset: 2
     design:
       view: compact 
+
   - block: contact
     content:
       title: Location
@@ -50,6 +51,7 @@ sections:
         postcode: '54896'
         country: South Korea
         country_code: KR
+        
     design:
       spacing:
         padding: ['3rem', 0, '6rem', 0]

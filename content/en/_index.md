@@ -3,16 +3,10 @@ title: 'Home'
 date: 2025-09-25
 type: landing
 sections:
-  - block: hero
+  - block: markdown
     content:
       title: "Park MinHo's Blog"
-      tagline: "Game Programming, Mobile, AI"
-      background:
-        image:
-          filename: 'JuJak.png'
-        hero_overlay:
-          gradient_start: 'rgba(0, 0, 0, 0.6)'
-          gradient_end: 'rgba(0, 0, 0, 0.6)'
+      subtitle: "Game Programming, Mobile, AI"
 
   - block: resume-biography
     content:

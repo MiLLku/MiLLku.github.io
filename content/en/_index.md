@@ -7,6 +7,13 @@ sections:
     content:
       title: "Park MinHo's Blog"
       subtitle: "Game Programming, Mobile, AI"
+    design:
+      align: center
+      background:
+        image:
+          filename: 'JuJak.png'
+        image_darken: 0.6
+      text_color_light: true  
 
   - block: resume-biography
     content:

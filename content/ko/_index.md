@@ -26,7 +26,7 @@ sections:
       filters:
         folders:
           - blog
-        count: 2 
+        count: 3
     design:
       view: card 
 

@@ -4,5 +4,5 @@ go 1.19
 
 require (
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v0.0.0-20231109145828-d9695efa098f
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.0.0-20240524141903-7372d8142820
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind main
 )

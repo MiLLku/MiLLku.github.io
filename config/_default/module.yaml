@@ -5,6 +5,7 @@
 ############################
 
 imports:
+  - path: github.com/HugoBlox/hugo-blox-builder/modules/wowchemy-plugin-api
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
 

@@ -32,6 +32,10 @@ header:
     enable: true
     show_search: true
     show_theme_chooser: true #이부분이 다크모드/라이트모드 설정
+  # 로고 설정
+  logo:
+    filename: 'JuJak.png' 
+    sticky_header_size: 0.8
 
 # Site footer
 footer:

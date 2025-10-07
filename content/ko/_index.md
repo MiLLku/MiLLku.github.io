@@ -3,16 +3,10 @@ title: 'Home'
 date: 2025-09-25
 type: landing
 sections:
-  - block: hero
+  - block: markdown
     content:
       title: "박민호의 블로그"
-      tagline: "게임 프로그래밍, 모바일, 그리고 AI에 대한 이야기를 나눕니다."
-      background:
-        image:
-          filename: 'JuJak.png'
-        hero_overlay:
-          gradient_start: 'rgba(0, 0, 0, 0.6)'
-          gradient_end: 'rgba(0, 0, 0, 0.6)'
+      subtitle: "게임 프로그래밍, 모바일, 그리고 AI에 대한 이야기를 나눕니다."
 
   - block: resume-biography
     content:

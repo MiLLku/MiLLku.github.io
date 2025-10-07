@@ -39,6 +39,12 @@ profiles:
   - icon: at-symbol
     url: 'ptrol1975@gmail.com'
     label: E-mail Google
+  - icon: phone
+    url: 'tel:010-1234-5678'
+    label: Call Me
+  - icon: map-pin
+    url: 'https://maps.app.goo.gl/oG9v4c4y6g2xVd6a9'
+    label: Jeonbuk Univercity Jeonju Campus
   - icon: academicons/cv
     url: uploads/resume.pdf
     label: Download my resume

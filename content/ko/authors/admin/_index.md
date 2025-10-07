@@ -42,6 +42,9 @@ profiles:
   - icon: phone
     url: 'tel:010-1234-5678'
     label: Call Me
+  - icon: map-pin
+    url: 'https://maps.app.goo.gl/oG9v4c4y6g2xVd6a9'
+    label: 전북대학교 전주캠퍼스
   - icon: academicons/cv
     url: uploads/resume.pdf
     label: 나의 이력서 보기

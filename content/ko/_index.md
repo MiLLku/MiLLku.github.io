@@ -1,26 +1,68 @@
 ---
 title: 'Home'
-date: 2023-10-24
+date: 2025-09-25
 type: landing
 sections:
+  - block: hero
+    content:
+      title: "박민호의 블로그"
+      tagline: "게임 프로그래밍, 모바일, 그리고 AI에 대한 이야기를 나눕니다."
+      background:
+        image:
+          filename: 'JuJak.png'
+        hero_overlay:
+          gradient_start: 'rgba(0, 0, 0, 0.6)'
+          gradient_end: 'rgba(0, 0, 0, 0.6)'
+
   - block: resume-biography
     content:
-      # The user's folder name in content/authors/
       username: admin
     design:
       spacing:
         padding: [0, 0, 0, 0]
       biography:
         style: 'text-align: justify; font-size: 0.8em;'
-      # Avatar customization
       avatar:
-        size: medium  # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+        size: medium  
+        shape: circle 
+
   - block: collection
     content:
+      title: "최신 글 (카드 뷰)"
       filters:
         folders:
           - blog
+        count: 2 
+    design:
+      view: card 
+
+  - block: collection
+    content:
+      title: "과거 글 (리스트 뷰)"
+      filters:
+        folders:
+          - blog
+        count: 2 
+        offset: 2
+    design:
+      view: compact 
+
+  - block: contact
+    content:
+      title: 오시는 길
+      text: |-
+        전북대학교 전주캠퍼스
+      coordinates:
+        latitude: '35'
+        longitude: '127'
+      address:
+        street: 567 백제대로, 덕진구
+        city: 전주시
+        region: 전라북도
+        postcode: '54896;
+        country: 대한민국
+        country_code: KR
+
     design:
       spacing:
         padding: ['3rem', 0, '6rem', 0]

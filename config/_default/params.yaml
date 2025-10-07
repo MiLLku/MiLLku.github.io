@@ -31,7 +31,11 @@ header:
   navbar:
     enable: true
     show_search: true
-    show_theme_chooser: true
+    show_theme_chooser: true #이부분이 다크모드/라이트모드 설정
+  # 로고 설정
+  logo:
+    filename: 'JuJak.png' 
+    sticky_header_size: 0.8
 
 # Site footer
 footer:
@@ -58,3 +62,9 @@ features:
     url: 'https://github.com/HugoBlox/hugo-blox-builder/'
     content_dir: starters/blog/content
     branch: main
+
+# 지도 설정
+map:
+  engine: mapbox
+  api_key: 'pk.eyJ1IjoiZ2N1c2hlbiIsImEiOiJjbGl5bWk3MGIwM3F5M3V0YjJzMDFzYXEzIn0.QSs-22-250s3Q12i-JODoA' #hugo blox의 예시 키로, 실제 api키 발급 필요
+  zoom: 15

@@ -3,6 +3,17 @@ title: 'Home'
 date: 2025-09-25
 type: landing
 sections:
+  - block: hero
+    content:
+      title: "Park MinHo's Blog"
+      tagline: "Game Programming, Mobile, AI"
+      background:
+        image:
+          filename: 'JuJak.png'
+        hero_overlay:
+          gradient_start: 'rgba(0, 0, 0, 0.6)'
+          gradient_end: 'rgba(0, 0, 0, 0.6)'
+
   - block: resume-biography
     content:
       username: admin
@@ -51,7 +62,7 @@ sections:
         postcode: '54896'
         country: South Korea
         country_code: KR
-        
+
     design:
       spacing:
         padding: ['3rem', 0, '6rem', 0]

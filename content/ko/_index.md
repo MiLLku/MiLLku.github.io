@@ -59,7 +59,7 @@ sections:
         street: 567 백제대로, 덕진구
         city: 전주시
         region: 전라북도
-        postcode: '54896;
+        postcode: '54896'
         country: 대한민국
         country_code: KR
 

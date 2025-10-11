@@ -77,6 +77,7 @@ sections:
       title: "추천 글"
       filters:
         folders: [blog]
+        tag: '추천'
         count: 3
         offset: 0
     design:
@@ -86,6 +87,8 @@ sections:
       title: "포토폴리오"
       filters:
         folders: [blog]
+        tag: '포토폴리오'
+        tag: 
         count: 3
         offset: 3
     design:
@@ -95,6 +98,7 @@ sections:
       title: "코딩 이야기"
       filters:
         folders: [blog]
+        tag: '코딩'
         count: 3
         offset: 6
     design:

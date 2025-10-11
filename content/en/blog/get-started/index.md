@@ -12,6 +12,9 @@ authors:
   - admin
 
 tags:
+  - Featured
+  - Portfolio
+  - Coding Stories
   - Academic
   - Hugo Blox
   - Markdown

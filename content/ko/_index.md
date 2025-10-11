@@ -15,7 +15,7 @@ sections:
         image_darken: 0.6
       text_color_light: true
 
-  - block: custom
+  - block: blank
     content:
       path: custom_slider
     design:
@@ -54,7 +54,7 @@ sections:
     design:
       view: list
 
-  - block: custom
+  - block: blank
     content:
       path: custom_map
     design:

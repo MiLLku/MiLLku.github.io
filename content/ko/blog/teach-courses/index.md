@@ -6,12 +6,9 @@ math: true
 authors:
   - admin
 tags:
-  - 추천
-  - 포토폴리오
-  - 코딩
-  - Hugo
-  - Hugo Blox Builder
-  - Markdown
+  - '추천'
+  - '포토폴리오'
+  - '코딩'
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---

@@ -12,12 +12,9 @@ authors:
   - admin
 
 tags:
-  - 추천
-  - 포토폴리오
-  - 코딩
-  # - Academic
-  # - Hugo Blox
-  # - Markdown
+  - '추천'
+  - '포토폴리오'
+  - '코딩'
 ---
 
 Welcome 👋

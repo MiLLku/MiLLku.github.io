@@ -79,7 +79,6 @@ sections:
         folders: [blog]
         tag: '추천'
         count: 3
-        offset: 0
     design:
       view: card
   - block: collection
@@ -88,9 +87,7 @@ sections:
       filters:
         folders: [blog]
         tag: '포토폴리오'
-        tag: 
         count: 3
-        offset: 3
     design:
       view: card
   - block: collection
@@ -100,7 +97,6 @@ sections:
         folders: [blog]
         tag: '코딩'
         count: 3
-        offset: 6
     design:
       view: card
 

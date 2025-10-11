@@ -5,12 +5,9 @@ date: 2025-10-12
 authors:
   - admin
 tags:
-  - 추천
-  - 포토폴리오
-  - 코딩
-  - Hugo
-  - Hugo Blox
-  - Markdown
+  - '추천'
+  - '포토폴리오'
+  - '코딩'
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---

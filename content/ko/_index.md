@@ -3,13 +3,12 @@ title: 'Home'
 date: 2025-09-25
 type: landing
 sections:
-  - block: columns
+  - block: grid
     design:
       columns: 2
       align: start
       spacing:
         padding: ["2rem", "2rem", "4rem", "2rem"]
-
     content:
       - block: group
         design:

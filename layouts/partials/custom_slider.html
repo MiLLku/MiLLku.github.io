@@ -1,21 +1,24 @@
+{{ $image1 := resources.Get "media/slider/JuJak.png" }}
+{{ $image2 := resources.Get "media/slider/JuJak.png" }}
+{{ $image3 := resources.Get "media/slider/JuJak.png" }}
+
 <div class="container-fluid">
   <div class="row">
     <div class="col-12">
       <div class="slider-container">
         <div class="slide">
-          <img src="/media/slider/JuJak.png" alt="첫 번째 슬라이드">
+          <img src="{{ $image1.Permalink }}" alt="첫 번째 슬라이드">
         </div>
         <div class="slide">
-          <img src="/media/slider/JuJak.png" alt="두 번째 슬라이드">
+          <img src="{{ $image2.Permalink }}" alt="두 번째 슬라이드">
         </div>
         <div class="slide">
-          <img src="/media/slider/JuJak.png" alt="세 번째 슬라이드">
+          <img src="{{ $image3.Permalink }}" alt="세 번째 슬라이드">
         </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        {{/* 버튼에 id를 부여합니다. */}}
+        <a class="prev" id="prevBtn">&#10094;</a>
+        <a class="next" id="nextBtn">&#10095;</a>
       </div>
     </div>
   </div>
 </div>
-
-

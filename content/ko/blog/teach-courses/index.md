@@ -5,7 +5,7 @@ date: 2023-10-24
 math: true
 authors:
   - admin
-tags:
+tags: []
 
 image:
   caption: 'Embed rich media such as videos and LaTeX math'

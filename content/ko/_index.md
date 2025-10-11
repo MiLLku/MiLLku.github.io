@@ -15,6 +15,53 @@ sections:
         image_darken: 0.6
       text_color_light: true 
 
+  - block: markdown
+    content:
+      title: ""
+      subtitle: ""
+      text: |-
+        <div class="slider-container">
+          <div class="slide">
+            <img src="/ko/blog/get-started/featured.jpg" alt="첫 번째 슬라이드">
+          </div>
+          <div class="slide">
+            <img src="/ko/blog/project-management/featured.jpg" alt="두 번째 슬라이드">
+          </div>
+          <div class="slide">
+            <img src="/ko/blog/data-visualization/featured.jpg" alt="세 번째 슬라이드">
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <script>
+          let slideIndex = 1;
+          showSlides(slideIndex);
+
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+
+          function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("slide");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            if (slides.length > 0) {
+              slides[slideIndex-1].style.display = "block";
+            }
+          }
+          
+          setInterval(function() {
+            plusSlides(1);
+          }, 3000);
+        </script>
+    design:
+      columns: '1'
+
   - block: resume-biography
     content:
       username: admin
@@ -27,74 +74,44 @@ sections:
         size: medium  
         shape: circle 
 
-  - block: custom
-    id: slider
-    content:
-      partial: "custom_slider.html"
-
   - block: collection
-    id: posts-1
     content:
-      title: "최신 프로젝트"
+      title: "최신 글"
       filters:
         folders: [blog]
         count: 3
         offset: 0
     design:
-      view: custom-card-1
+      view: card
 
   - block: collection
-    id: posts-2
     content:
-      title: "이전 글"
+      title: "과거 글"
       filters:
         folders: [blog]
         count: 6
         offset: 3
     design:
-      view: custom-card-2 
+      view: list
 
-  - block: custom 
-    id: map
+  - block: markdown
     content:
-      partial: "custom_map.html"
-  # - block: collection
-  #   content:
-  #     title: "최신 글"
-  #     filters:
-  #       folders: [blog]
-  #       count: 3
-  #       offset: 0
-  #   design:
-  #     view: card 
+      title: "오시는 길"
+      text: |-
+        <div id="map" style="height: 400px; border-radius: 10px;"></div>
+        <script>
+          var map = L.map('map').setView([35.8469, 127.1293], 15);
 
-  # - block: collection
-  #   content:
-  #     title: "과거 글"
-  #     filters:
-  #       folders: [blog]
-  #       count: 6
-  #       offset: 3
-  #   design:
-  #     view: card  #
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          }).addTo(map);
 
-  # - block: 
-  #   content:
-  #     title: 오시는 길
-  #     text: |-
-  #       전북대학교 전주캠퍼스
-  #     coordinates:
-  #       latitude: '35'
-  #       longitude: '127'
-  #     address:
-  #       street: 567 백제대로, 덕진구
-  #       city: 전주시
-  #       region: 전라북도
-  #       postcode: '54896'
-  #       country: 대한민국
-  #       country_code: KR
-
-    # design:
-    #   spacing:
-    #     padding: ['3rem', 0, '6rem', 0]
+          L.marker([35.8469, 127.1293]).addTo(map)
+            .bindPopup('전북대학교 전주캠퍼스')
+            .openPopup();
+        </script>
+    design:
+      columns: '1'
+      spacing:
+        padding: ['3rem', 0, '6rem', 0]
 ---

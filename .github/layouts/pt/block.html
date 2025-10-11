@@ -1,0 +1,22 @@
+{{ $block := . }}
+{{ $id := $block.id | default ($block.Title | urlize) }}
+
+{{ with $block.content.partial }}
+  {{ $partial_path := . }}
+  {{ $partial_exists := false }}
+  {{ if templates.Exists (printf "partials/%s" $partial_path) }}
+    {{ $partial_exists = true }}
+  {{ end }}
+
+  {{ if $partial_exists }}
+    <div id="{{ $id }}" class="hb-section">
+      <div class="container">
+        {{ partial $partial_path $ }}
+      </div>
+    </div>
+  {{ else }}
+    {{ warnf "Custom partial not found at partials/%s. Please check the path in your _index.md." $partial_path }}
+  {{ end }}
+{{ else }}
+  {{ warnf "The 'custom' block requires a `partial` key in its content section of your _index.md." }}
+{{ end }}

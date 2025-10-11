@@ -27,12 +27,11 @@ sections:
         size: medium  
         shape: circle 
 
-  - block: html
+  - block: custom
+    id: slider
     content:
-      html: '{{< partial "custom_slider.html" . >}}'
-    design:
-      spacing:
-        padding: [0, 0, 0, 0]
+      partial: "custom_slider.html"
+
   - block: collection
     id: posts-1
     content:
@@ -42,7 +41,7 @@ sections:
         count: 3
         offset: 0
     design:
-      view: custom-card-1 # 첫 번째 커스텀 뷰 적용
+      view: custom-card-1
 
   - block: collection
     id: posts-2
@@ -53,14 +52,12 @@ sections:
         count: 6
         offset: 3
     design:
-      view: custom-card-2 # 두 번째 커스텀 뷰 적용
+      view: custom-card-2 
 
-  - block: html # 커스텀 지도를 삽입하기 위한 HTML 블록
+  - block: custom 
+    id: map
     content:
-      html: '{{< partial "custom_map.html" . >}}'
-    design:
-      spacing:
-        padding: ['3rem', 0, '6rem', 0]
+      partial: "custom_map.html"
   # - block: collection
   #   content:
   #     title: "최신 글"

@@ -13,7 +13,7 @@ sections:
         image:
           filename: 'JuJak.png'
         image_darken: 0.6
-      text_color_light: true
+        text_color_light: true
   - block: columns
     id: main-layout
     content:
@@ -56,9 +56,6 @@ sections:
                   }
                   setInterval(function() { sliderPlusSlides(1); }, 3000);
                 </script>
-          - block: markdown
-            content:
-              text: |
                 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
                 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
                 <div style="max-width: 500px; margin: 2rem auto;">

@@ -27,6 +27,16 @@ sections:
         size: medium  
         shape: circle 
 
+  - block: gallery
+    content:
+      items:
+        - album: my-gallery
+    design:
+      columns: '1'
+      # Hugo Blox의 갤러리 블록은 기본적으로 슬라이더 기능을 포함할 수 있습니다.
+      # 테마 설정에 따라 슬라이더로 표시됩니다.
+      view: slider
+
   # - block: gallery
   #   content:
   #     items:
@@ -52,7 +62,7 @@ sections:
         count: 6
         offset: 3
     design:
-      view: list 
+      view: card  #
 
   # - block: 
   #   content:

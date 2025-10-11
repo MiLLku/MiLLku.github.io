@@ -5,6 +5,9 @@ date: 2023-10-26
 authors:
   - admin
 tags:
+  - Featured
+  - Portfolio
+  - Coding Stories
   - Second Brain
   - Markdown
 image:

@@ -9,13 +9,6 @@ name_pronunciation: Park Min Ho
 first_name: 민호
 last_name: 박
 
-# Pronouns (optional)
-pronouns: he/him
-
-# Status emoji
-status:
-  icon: ☕️
-
 # Is this the primary user of the site?
 superuser: true
 

@@ -5,6 +5,9 @@ date: 2023-10-23
 authors:
   - admin
 tags:
+  - Featured
+  - Portfolio
+  - Coding Stories
   - Hugo Blox
   - Markdown
 image:

@@ -6,6 +6,9 @@ math: true
 authors:
   - admin
 tags:
+  - 추천
+  - 포토폴리오
+  - 코딩
   - Hugo
   - Hugo Blox Builder
   - Markdown

@@ -5,6 +5,9 @@ date: 2023-10-23
 authors:
   - admin
 tags:
+  - 추천
+  - 포토폴리오
+  - 코딩
   - Hugo Blox
   - Markdown
 image:

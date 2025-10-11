@@ -3,7 +3,7 @@ title: 'Home'
 date: 2025-09-25
 type: landing
 sections:
-  - block: grid
+  - block: section
     design:
       columns: 2
       align: start
@@ -11,9 +11,6 @@ sections:
         padding: ["2rem", "2rem", "4rem", "2rem"]
     content:
       - block: group
-        design:
-          spacing:
-            padding: [0, 0, 0, 0]
         content:
           - block: resume-biography
             content:
@@ -57,9 +54,6 @@ sections:
                     setInterval(() => plusSlides(1), 3000);
                   });
                 </script>
-            design:
-              spacing:
-                padding: ["1rem", 0, "1rem", 0]
 
           - block: markdown
             content:
@@ -82,14 +76,8 @@ sections:
                     }
                   });
                 </script>
-            design:
-              spacing:
-                padding: ["2rem", 0, 0, 0]
 
       - block: group
-        design:
-          spacing:
-            padding: [0, 0, 0, 0]
         content:
           - block: collection
             content:

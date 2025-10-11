@@ -5,9 +5,7 @@ date: 2023-10-26
 authors:
   - admin
 tags:
-  - '추천'
-  - '포토폴리오'
-  - '코딩'
+
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---

@@ -1,6 +1,0 @@
-{{ $page := .page }}
-{{ $block := .block }}
-
-{{ with $block.content.path }}
-  {{ partial . $page }}
-{{ end }}

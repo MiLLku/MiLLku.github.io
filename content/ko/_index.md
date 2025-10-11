@@ -13,13 +13,14 @@ sections:
         image:
           filename: 'JuJak.png'
         image_darken: 0.6
-      text_color_light: true 
+      text_color_light: true
 
   - block: markdown
     content:
       title: ""
       subtitle: ""
       text: |-
+        {{< rawhtml >}}
         <div class="slider-container">
           <div class="slide">
             <img src="/ko/blog/get-started/featured.jpg" alt="첫 번째 슬라이드">
@@ -59,6 +60,7 @@ sections:
             plusSlides(1);
           }, 3000);
         </script>
+        {{< /rawhtml >}}
     design:
       columns: '1'
 
@@ -71,8 +73,8 @@ sections:
       biography:
         style: 'text-align: justify; font-size: 0.8em;'
       avatar:
-        size: medium  
-        shape: circle 
+        size: medium
+        shape: circle
 
   - block: collection
     content:
@@ -98,6 +100,7 @@ sections:
     content:
       title: "오시는 길"
       text: |-
+        {{< rawhtml >}}
         <div id="map" style="height: 400px; border-radius: 10px;"></div>
         <script>
           var map = L.map('map').setView([35.8469, 127.1293], 15);
@@ -110,6 +113,7 @@ sections:
             .bindPopup('전북대학교 전주캠퍼스')
             .openPopup();
         </script>
+        {{< /rawhtml >}}
     design:
       columns: '1'
       spacing:

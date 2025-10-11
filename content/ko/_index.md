@@ -15,9 +15,13 @@ sections:
         image_darken: 0.6
       text_color_light: true
 
-{{</* partial "custom_slider.html" . */>}}
+  - block: blank
+    content:
+      path: custom_slider
+    design:
+      spacing:
+        padding: ["20px", "0", "20px", "0"]
 
-sections:
   - block: resume-biography
     content:
       username: admin
@@ -49,6 +53,11 @@ sections:
         offset: 3
     design:
       view: list
----
 
-{{</* partial "custom_map.html" . */>}}
+  - block: blank
+    content:
+      path: custom_map
+    design:
+      spacing:
+        padding: ['3rem', 0, '6rem', 0]
+---

@@ -15,54 +15,12 @@ sections:
         image_darken: 0.6
       text_color_light: true
 
-  - block: markdown
+  - block: custom
     content:
-      title: ""
-      subtitle: ""
-      text: |-
-        {{< rawhtml >}}
-        <div class="slider-container">
-          <div class="slide">
-            <img src="/ko/blog/get-started/featured.jpg" alt="첫 번째 슬라이드">
-          </div>
-          <div class="slide">
-            <img src="/ko/blog/project-management/featured.jpg" alt="두 번째 슬라이드">
-          </div>
-          <div class="slide">
-            <img src="/ko/blog/data-visualization/featured.jpg" alt="세 번째 슬라이드">
-          </div>
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-
-        <script>
-          let slideIndex = 1;
-          showSlides(slideIndex);
-
-          function plusSlides(n) {
-            showSlides(slideIndex += n);
-          }
-
-          function showSlides(n) {
-            let i;
-            let slides = document.getElementsByClassName("slide");
-            if (n > slides.length) {slideIndex = 1}
-            if (n < 1) {slideIndex = slides.length}
-            for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";
-            }
-            if (slides.length > 0) {
-              slides[slideIndex-1].style.display = "block";
-            }
-          }
-          
-          setInterval(function() {
-            plusSlides(1);
-          }, 3000);
-        </script>
-        {{< /rawhtml >}}
+      path: custom_slider
     design:
-      columns: '1'
+      spacing:
+        padding: ["20px", "0", "20px", "0"]
 
   - block: resume-biography
     content:
@@ -96,26 +54,10 @@ sections:
     design:
       view: list
 
-  - block: markdown
+  - block: custom
     content:
-      title: "오시는 길"
-      text: |-
-        {{< rawhtml >}}
-        <div id="map" style="height: 400px; border-radius: 10px;"></div>
-        <script>
-          var map = L.map('map').setView([35.8469, 127.1293], 15);
-
-          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          }).addTo(map);
-
-          L.marker([35.8469, 127.1293]).addTo(map)
-            .bindPopup('전북대학교 전주캠퍼스')
-            .openPopup();
-        </script>
-        {{< /rawhtml >}}
+      path: custom_map
     design:
-      columns: '1'
       spacing:
         padding: ['3rem', 0, '6rem', 0]
 ---

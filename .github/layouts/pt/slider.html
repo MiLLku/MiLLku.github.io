@@ -1,0 +1,20 @@
+<details>
+<summary><code>layouts/partials/custom_slider.html</code></summary>
+<link rel="stylesheet" href="/css/custom-slider.css">
+
+<div class="slider-container">
+  <div class="slider">
+    {{ $galleryDir := "ko/gallery/my-gallery" }}
+    {{ range readDir (printf "/content/%s" $galleryDir) }}
+      {{ if ne .Name "_index.md" }}
+        <div class="slide">
+          <img src="{{ (printf "/%s/%s" $galleryDir .Name) | relURL }}" alt="{{ .Name }}">
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+  <button class="prev-btn">&#10094;</button>
+  <button class="next-btn">&#10095;</button>
+</div>
+
+<script src="/js/custom-slider.js"></script>

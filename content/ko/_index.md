@@ -26,26 +26,60 @@ sections:
       avatar:
         size: medium  
         shape: circle 
-        
-  - block: collection
+
+  - block: html
     content:
-      title: "최신 글"
+      html: '{{< partial "custom_slider.html" . >}}'
+    design:
+      spacing:
+        padding: [0, 0, 0, 0]
+  - block: collection
+    id: posts-1
+    content:
+      title: "최신 프로젝트"
       filters:
         folders: [blog]
         count: 3
         offset: 0
     design:
-      view: card 
+      view: custom-card-1 # 첫 번째 커스텀 뷰 적용
 
   - block: collection
+    id: posts-2
     content:
-      title: "과거 글"
+      title: "이전 글"
       filters:
         folders: [blog]
         count: 6
         offset: 3
     design:
-      view: card  #
+      view: custom-card-2 # 두 번째 커스텀 뷰 적용
+
+  - block: html # 커스텀 지도를 삽입하기 위한 HTML 블록
+    content:
+      html: '{{< partial "custom_map.html" . >}}'
+    design:
+      spacing:
+        padding: ['3rem', 0, '6rem', 0]
+  # - block: collection
+  #   content:
+  #     title: "최신 글"
+  #     filters:
+  #       folders: [blog]
+  #       count: 3
+  #       offset: 0
+  #   design:
+  #     view: card 
+
+  # - block: collection
+  #   content:
+  #     title: "과거 글"
+  #     filters:
+  #       folders: [blog]
+  #       count: 6
+  #       offset: 3
+  #   design:
+  #     view: card  #
 
   # - block: 
   #   content:
@@ -63,7 +97,7 @@ sections:
   #       country: 대한민국
   #       country_code: KR
 
-    design:
-      spacing:
-        padding: ['3rem', 0, '6rem', 0]
+    # design:
+    #   spacing:
+    #     padding: ['3rem', 0, '6rem', 0]
 ---

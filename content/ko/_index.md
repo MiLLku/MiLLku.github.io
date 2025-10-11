@@ -3,7 +3,7 @@ title: 'Home'
 date: 2025-09-25
 type: landing
 sections:
-  - block: grid
+  - block: columns
     design:
       columns: 2
       align: start
@@ -87,31 +87,38 @@ sections:
               spacing:
                 padding: ["2rem", 0, 0, 0]
 
-  - block: collection
-    content:
-      title: "추천 글"
-      filters:
-        folders: [blog]
-        count: 3
-        offset: 0
-    design:
-          view: card
-  - block: collection
-    content:
-      title: "포토폴리오"
-      filters:
-        folders: [blog]
-        count: 3
-        offset: 3
-    design:
-      view: card
-  - block: collection
-    content:
-      title: "코딩 이야기"
-      filters:
-        folders: [blog]
-        count: 3
-        offset: 6
-    design:
-      view: card
+      - block: group
+        design:
+          spacing:
+            padding: [0, 0, 0, 0]
+        content:
+          - block: collection
+            content:
+              title: "추천 글"
+              filters:
+                folders: [blog]
+                count: 3
+                offset: 0
+            design:
+              view: card
+
+          - block: collection
+            content:
+              title: "포토폴리오"
+              filters:
+                folders: [blog]
+                count: 3
+                offset: 3
+            design:
+              view: card
+
+          - block: collection
+            content:
+              title: "코딩 이야기"
+              filters:
+                folders: [blog]
+                count: 3
+                offset: 6
+            design:
+              view: card
 ---

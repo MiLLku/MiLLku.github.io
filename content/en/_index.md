@@ -93,7 +93,7 @@ sections:
       title: "Coding Stories"
       filters:
         folders: [blog]
-        tag: 'Coding'
+        tag: 'Coding Stories'
         count: 3
     design:
       view: card

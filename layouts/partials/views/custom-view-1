@@ -1,0 +1,24 @@
+<div class="max-w-lg rounded-lg overflow-hidden shadow-lg m-4 transition-all duration-300 ease-in-out border-2 border-transparent hover:border-blue-500 hover:shadow-2xl">
+  {{ $page := . }}
+  {{ $has_attachments := .Params.attachments }}
+  {{ $show_buttons := and (.Params.buttons) (gt (len .Params.buttons) 0) }}
+
+  {{ with $page.Params.image }}
+  <a href="{{ $page.RelPermalink }}">
+    <img class="w-full" src="{{ (printf "blog/%s/%s" $page.File.Dir .filename) | relURL }}" alt="{{ .caption }}">
+  </a>
+  {{ end }}
+
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2"><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></div>
+    <p class="text-gray-700 text-base">
+      {{ $page.Summary | truncate 120 }}
+    </p>
+  </div>
+
+  <div class="px-6 pt-4 pb-2">
+    {{ range $page.Params.tags }}
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#{{ . }}</span>
+    {{ end }}
+  </div>
+</div>

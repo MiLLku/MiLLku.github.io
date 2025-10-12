@@ -81,6 +81,7 @@ sections:
         count: 3
     design:
       view: card
+
   - block: collection
     content:
       title: "포토폴리오"
@@ -90,6 +91,7 @@ sections:
         count: 3
     design:
       view: card
+      
   - block: collection
     content:
       title: "코딩 이야기"

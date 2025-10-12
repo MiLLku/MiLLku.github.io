@@ -8,6 +8,8 @@ tags:
   - Featured
   - Portfolio
   - Coding Stories
+  - Hugo
+  - Markdown
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---

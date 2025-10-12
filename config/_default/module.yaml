@@ -11,7 +11,7 @@ imports:
 # Install any Hugo Blox within the `hugo-blox/blox/` folder
 mounts:
   - source: content/my_views
-    target: layouts/partials/views
+    target: layouts/partials/blocks/collection
 
   - source: assets
     target: assets

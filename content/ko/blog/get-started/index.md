@@ -15,6 +15,8 @@ tags:
   - Featured
   - Portfolio
   - Coding Stories
+  - Hugo
+  - Markdown
 ---
 
 Welcome 👋

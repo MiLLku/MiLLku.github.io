@@ -12,9 +12,9 @@ authors:
   - admin
 
 tags:
-  - '추천'
-  - '포토폴리오'
-  - '코딩'
+  - Featured
+  - Portfolio
+  - Coding Stories
 ---
 
 Welcome 👋

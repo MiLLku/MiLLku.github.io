@@ -5,9 +5,9 @@ date: 2023-10-23
 authors:
   - admin
 tags:
-  - '추천'
-  - '포토폴리오'
-  - '코딩'
+  - Featured
+  - Portfolio
+  - Coding Stories
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---

@@ -80,7 +80,7 @@ sections:
         tag: Featured
         count: 3
     design:
-      view: custom-view-1
+      view: customview1
 
   - block: collection
     content:
@@ -100,7 +100,7 @@ sections:
         tag: Coding Stories
         count: 3
     design:
-      view: custom-view-2
+      view: customview2
 
   - block: markdown
     content:

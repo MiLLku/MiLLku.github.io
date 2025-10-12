@@ -13,11 +13,6 @@ mounts:
   - source: content/my_views
     target: layouts/partials/views
 
-  - source: "hugo-blox/layouts"
-    target: layouts
-  - source: "layouts"
-    target: layouts
-
   - source: assets
     target: assets
   - source: hugo-blox/blox/community

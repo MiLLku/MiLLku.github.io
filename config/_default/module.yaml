@@ -13,7 +13,9 @@ mounts:
   - source: layouts
     target: layouts
   - source: assets
-    target: assets
+    target: assets  
+  - source: content/my_views      
+    target: layouts/partials/views 
   - source: hugo-blox/blox/community
     target: layouts/_partials/blox/community/
     includeFiles: '**.html'

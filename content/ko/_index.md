@@ -77,7 +77,7 @@ sections:
       title: "추천 글"
       filters:
         folders: [blog]
-        tag: '추천'
+        tag: Featured
         count: 3
     design:
       view: card
@@ -87,7 +87,7 @@ sections:
       title: "포토폴리오"
       filters:
         folders: [blog]
-        tag: '포토폴리오'
+        tag: Portfolio
         count: 3
     design:
       view: card
@@ -97,7 +97,7 @@ sections:
       title: "코딩 이야기"
       filters:
         folders: [blog]
-        tag: '코딩'
+        tag: Coding Stories
         count: 3
     design:
       view: card

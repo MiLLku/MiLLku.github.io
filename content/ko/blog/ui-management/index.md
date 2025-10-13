@@ -11,7 +11,7 @@ tags:
   - Hugo
   - Markdown
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  filename: ui.jpg
 ---
 
 ## 서론

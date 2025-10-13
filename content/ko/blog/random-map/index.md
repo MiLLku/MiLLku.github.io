@@ -4,7 +4,7 @@ summary:  C#을 활용하여 산소미포함, 래토피아와 같은 2D 기지 �
 date: 2025-10-12
 
 image:
-  filename: ONI.jpg
+  filename: oni.jpg
   caption: '이미지 캡션: 산소미포함 스크린샷'
 
 authors:

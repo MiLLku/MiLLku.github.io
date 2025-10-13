@@ -43,7 +43,7 @@ sections:
             <div class="col-12">
               <div class="slider-container">
                 <div class="slide"><img src="/en/blog/tilemap/oni.jpg" alt="Slide 1"></div>
-                <div class="slide"><img src="/en/blog/probability/prob.jpg" alt="Slide 2"></div>
+                <div class="slide"><img src="/en/blog/sampling/prob.jpg" alt="Slide 2"></div>
                 <div class="slide"><img src="/en/blog/ui-management/ui.jpg" alt="Slide 3"></div>
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>

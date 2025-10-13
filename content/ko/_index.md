@@ -44,7 +44,7 @@ sections:
             <div class="col-12">
               <div class="slider-container">
                 <div class="slide"><img src="/blog/random-map/oni.jpg" alt="슬라이드 1"></div>
-                <div class="slide"><img src="/blog/sampling/prob.jpg" alt="슬라이드 2"></div>
+                <div class="slide"><img src="/blog/sampling/brob.jpg" alt="슬라이드 2"></div>
                 <div class="slide"><img src="/blog/ui-management/ui.jpg" alt="슬라이드 3"></div>
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>

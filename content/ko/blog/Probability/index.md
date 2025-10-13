@@ -11,6 +11,7 @@ tags:
   - Hugo
   - Markdown
 image:
+  filename: Prob.jpg
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 

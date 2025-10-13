@@ -43,9 +43,9 @@ sections:
           <div class="row">
             <div class="col-12">
               <div class="slider-container">
-                <div class="slide"><img src="/ko/blog/get-started/featured.jpg" alt="슬라이드 1"></div>
-                <div class="slide"><img src="/ko/blog/project-management/featured.jpg" alt="슬라이드 2"></div>
-                <div class="slide"><img src="/ko/blog/data-visualization/featured.jpg" alt="슬라이드 3"></div>
+                <div class="slide"><img src="/ko/blog/2D_Tilemap&RandomMapGen/ONI.jpg" alt="슬라이드 1"></div>
+                <div class="slide"><img src="/ko/blog/Probability/Prob.jpg" alt="슬라이드 2"></div>
+                <div class="slide"><img src="/ko/blog/UI_Management/featured.jpg" alt="슬라이드 3"></div>
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
               </div>

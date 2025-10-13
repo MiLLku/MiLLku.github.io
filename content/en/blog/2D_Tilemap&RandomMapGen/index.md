@@ -1,4 +1,3 @@
-
 ---
 title: 🗺️ Procedurally Generating 2D Tilemaps in Unity
 summary:  Design a system to procedurally generate cave-style maps for 2D base-building simulators like Oxygen Not Included and Ratopia using C#, and learn how to replicate maps with seeds and insert specific structures.

@@ -112,7 +112,7 @@ sections:
           <div class="row">
             <div class="col-12">
               <h2 style="text-align: center; margin-bottom: 1.5rem;">오시는 길</h2>
-              <div id="map" style="width: 100%; height: 450px; border-radius: 10px;"></div>
+              <div id="map" style="width: 450px; height: 450px; border-radius: 10px;"></div>
             </div>
           </div>
         </div>

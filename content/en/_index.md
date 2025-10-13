@@ -42,9 +42,9 @@ sections:
           <div class="row">
             <div class="col-12">
               <div class="slider-container">
-                <div class="slide"><img src="/blog/2D_Tilemap&RandomMapGen/ONI.jpg" alt="Slide 1"></div>
-                <div class="slide"><img src="/blog/Probability/Prob.jpg" alt="Slide 2"></div>
-                <div class="slide"><img src="/blog/UI_Management/featured.jpg" alt="Slide 3"></div>
+                <div class="slide"><img src="/blog/tilemap/oni.jpg" alt="Slide 1"></div>
+                <div class="slide"><img src="/blog/probability/prob.jpg" alt="Slide 2"></div>
+                <div class="slide"><img src="/blog/ui-management/ui.jpg" alt="Slide 3"></div>
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
               </div>

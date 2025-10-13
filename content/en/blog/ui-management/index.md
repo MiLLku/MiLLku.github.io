@@ -14,8 +14,7 @@ tags:
   - Markdown
 
 image:
-  filename: featured.jpg
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  filename: ui.jpg
 ---
 
 ## Introduction

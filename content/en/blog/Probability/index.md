@@ -11,8 +11,7 @@ tags:
   - Unity
   - C#
 image:
-  filename: Prob.jpg
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  filename: prob.jpg
 ---
 
 ## Introduction

@@ -42,9 +42,9 @@ sections:
           <div class="row">
             <div class="col-12">
               <div class="slider-container">
-                <div class="slide"><img src="/en/blog/get-started/featured.jpg" alt="Slide 1"></div>
-                <div class="slide"><img src="/en/blog/project-management/featured.jpg" alt="Slide 2"></div>
-                <div class="slide"><img src="/en/blog/data-visualization/featured.jpg" alt="Slide 3"></div>
+                <div class="slide"><img src="/en/blog/2D_Tilemap&RandomMapGen/ONI.jpg" alt="Slide 1"></div>
+                <div class="slide"><img src="/en/blog/Probability/Prob.jpg" alt="Slide 2"></div>
+                <div class="slide"><img src="/en/blog/UI_Management/featured.jpg" alt="Slide 3"></div>
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
               </div>
@@ -107,7 +107,7 @@ sections:
           <div class="row">
             <div class="col-12">
               <h2 style="text-align: center; margin-bottom: 1.5rem;">Location</h2>
-              <div id="map-en" style="width: 100%; height: 450px; border-radius: 10px;"></div>
+              <div id="map-en" style="width: 450px; height: 450px; border-radius: 10px;"></div>
             </div>
           </div>
         </div>

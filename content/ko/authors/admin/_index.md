@@ -52,9 +52,6 @@ profiles:
 highlight_name: true
 
 # Author's website URL
-website: ""
+website: "https://millku.github.io/"
 ---
-
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include
-distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops
-self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+저는 게임 개발, 인공지능, 그리고 모바일 프로그래밍에 깊은 관심을 가지고 있는 컴퓨터 공학생입니다. 특히 Unity 엔진을 활용하여 다양한 게임의 핵심 시스템을 개발하는 것에 열정을 느끼고 있습니다. 저의 블로그는 이러한 개발 과정에서 얻은 지식과 경험을 공유하고 함께 성장하기 위한 공간입니다.

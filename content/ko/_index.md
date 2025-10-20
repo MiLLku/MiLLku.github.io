@@ -11,7 +11,7 @@ sections:
       align: center
       background:
         image:
-          filename: 'center.png'
+          filename: 'JuJak.png'
         image_darken: 0.6
       text_color_light: true
 

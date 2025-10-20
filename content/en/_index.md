@@ -5,13 +5,13 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: "Park MinHo's Blog"
+      title: "Park MinHo's Portfolio Blog"
       subtitle: "Sharing stories about Game Programming, Mobile, and AI."
     design:
       align: center
       background:
         image:
-          filename: 'JuJak.png'
+          filename: 'center.png'
         image_darken: 0.6
         text_color_light: true
 

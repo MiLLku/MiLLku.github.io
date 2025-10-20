@@ -9,6 +9,8 @@ sections:
       subtitle: "Sharing stories about Game Programming, Mobile, and AI."
     design:
       align: center
+      spacing:
+        padding: ["20rem", "0", "20rem", "0"]
       background:
         image:
           filename: 'center.png'

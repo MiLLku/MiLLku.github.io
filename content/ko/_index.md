@@ -5,7 +5,7 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: "박민호의 블로그"
+      title: "박민호의 포트폴리오 홈페이지"
       subtitle: "게임 프로그래밍, 모바일, 그리고 AI에 대한 이야기를 나눕니다."
     design:
       align: center

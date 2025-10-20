@@ -9,6 +9,8 @@ sections:
       subtitle: "게임 프로그래밍, 모바일, 그리고 AI에 대한 이야기를 나눕니다."
     design:
       align: center
+      spacing:
+        padding: ["20rem", "0", "20rem", "0"]
       background:
         image:
           filename: 'center.png'

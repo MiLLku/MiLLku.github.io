@@ -15,6 +15,7 @@ tags:
 
 image:
   filename: ui.jpg
+  caption: 'Photo by [Mohammad Rahmani] on Unsplash'
 ---
 
 ## Introduction

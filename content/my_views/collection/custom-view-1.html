@@ -7,7 +7,7 @@
     {{ end }}
     <div class="flex flex-col justify-between p-6 leading-normal md:w-2/3 w-full">
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">{{ .Title }}</h5>
-      <p class="mb-3 font-normal text-gray-700">{{ .Summary | truncate 150 }}</p>
+      <p class="mb-3 font-normal text-gray-700 text-justify">{{ .Summary | truncate 150 }}</p>
       <div class="flex items-center justify-between mt-4">
         <span class="text-sm text-gray-500">{{ .Date.Format "Jan 2, 2006" }}</span>
         <div>

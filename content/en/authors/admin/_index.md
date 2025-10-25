@@ -58,6 +58,7 @@ highlight_name: true
 # Author's website URL
 website: "https://millku.github.io/"
 ---
-
+<p style="text-align: justify;">
 I am a computer engineering student with a deep interest in game development, artificial intelligence, and mobile programming. I am particularly passionate about developing the core systems of various games using the Unity engine. My blog is a space to share the knowledge and experience gained during this development process and to grow together.
+</p>
 

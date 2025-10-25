@@ -12,6 +12,7 @@ tags:
   - Markdown
 image:
   filename: prob.jpg
+  caption: 'Photo by [EdgeToEdge Media] on Unsplash'
 ---
 
 ## 서론

@@ -7,9 +7,9 @@ en:
   languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/en
-  title: "Creator"
+  title: "Park Minho | JBNU Computer Science Department"
   params:
-    description: "Folio site for creating photos with Hugo Blox"
+    description: "Sharing stories about Game Programming, Mobile, and AI."
   menu:
     main:
       - name: Home
@@ -20,9 +20,9 @@ en:
 ko:
   languageCode: ko-kr
   contentDir: content/ko
-  title: "Creator"
+  title: "박민호 | 전북대학교 컴퓨터공학과"
   params:
-    description: "Hugo Blox로 만드는 포토폴리오 사이트"
+    description: "전북대학교 컴퓨터공학과 박민호입니다. 게임 개발, AI, 모바일 프로그래밍에 대한 포트폴리오와 기술 블로그입니다."
   menu:
     main:
       - name: Home

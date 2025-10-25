@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: "Creator's Blog (Hugo Theme)" # Website name
+title: "박민호 | 전북대학교 컴퓨터공학과" # Website name
 baseURL: 'https://millku.github.io/' # Website URL
 
 ############################

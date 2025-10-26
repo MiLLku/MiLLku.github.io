@@ -4,6 +4,7 @@ summary:  Design a system to procedurally generate cave-style maps for 2D base-b
 date: 2025-10-12
 image:
   filename: oni.jpg
+  caption: 'Photo by [USGS] on Unsplash'
 
 authors:
   - admin

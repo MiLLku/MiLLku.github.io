@@ -5,7 +5,7 @@ date: 2025-10-12
 
 image:
   filename: oni.jpg
-  caption: '이미지 캡션: 산소미포함 스크린샷'
+  caption: 'Photo by [USGS] on Unsplash'
 
 authors:
   - admin

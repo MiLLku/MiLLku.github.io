@@ -11,7 +11,8 @@ tags:
   - Hugo
   - Markdown
 image:
-  filename: prob.jpg
+  filename: brob.jpg
+  caption: 'Photo by [EdgeToEdge Media] on Unsplash'
 ---
 
 ## 서론

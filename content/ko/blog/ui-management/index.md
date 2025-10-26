@@ -12,6 +12,7 @@ tags:
   - Markdown
 image:
   filename: ui.jpg
+  caption: 'Photo by [Mohammad Rahmani] on Unsplash'
 ---
 
 ## 서론
